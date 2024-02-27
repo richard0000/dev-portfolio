@@ -1,33 +1,116 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
+            "title": "LPx Investor Reporting",
+            "subtitle": "Full Stack Software Engineer / Tech Leader",
+            "workType": "Full Time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Played a pivotal role at LPx Investor Reporting, a software solution designed for the alternative investment space, revolutionizing fund administration and investor relations with user-friendly oversight and streamlined processes. Key responsibilities and achievements included:",
+
+                "Led major refactoring initiatives to enhance the efficiency and maintainability of legacy code, ensuring optimal system performance and scalability.",
+                "Orchestrated the transition from a document-based database engine to a relational database, improving data organization and accessibility.",
+                "Conducted comprehensive code reviews to uphold code quality and adherence to best practices.",
+                "Spearheaded technical interviews to assess and onboard new team members, ensuring a skilled and cohesive workforce.",
+                "Designed robust system architectures to support the evolving needs of the platform and its users.",
+                "Created mockups for frontend interfaces, optimizing user experience and interface design to align with LPx's sleek and intuitive platform."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "01/2023 – Present"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
+            "title": "Learning Tapestry",
+            "subtitle": "Full Stack Software Engineer",
+            "workType": "Full Time",
             "workDescription": [
-                "Worked on abc."
+                "Played an integral role in the development of education-related Minimum Viable Products (MVPs) for multiple companies, including collaborations with T3 Innovation Network, the United States Chamber of Commerce, Viacom, Teach Like a Champion Online, and Nickelodeon. Additionally, assumed managerial responsibilities within the organization. Leveraged a diverse stack of technologies including Ruby on Rails, Heroku, AWS, CircleCI, React, Gatsby, Figma, NodeJS, PostgreSQL, and RDF. Key responsibilities and achievements included:",
+                "Designed the architecture for various projects, ensuring scalability and robustness.",
+                "Led both backend and frontend development efforts independently and with small teams.",
+                "Authored unit, integration, and end-to-end tests to ensure product reliability and performance.",
+                "Seamlessly integrated with various external services to enhance product functionality.",
+                "Conducted thorough code reviews to maintain code quality and consistency.",
+                "Innovated by introducing new features to enhance product offerings.",
+                "Successfully developed and launched new MVP products to meet the evolving needs of clients and users."
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "06/2020 – 12/2022"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
+            "title": "Troly",
+            "subtitle": "Full Stack Software Engineer",
+            "workType": "Full Time",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Played a key role in the development of a comprehensive platform tailored for small and mid-size wineries and breweries, empowering them to efficiently manage customer data, streamline deliveries, oversee inventory, and more.",
+                "Utilized a diverse range of technologies including Ruby on Rails, Heroku, React, Figma, and PostgreSQL. Key responsibilities and accomplishments included:",
+                "Transitioned to a client-facing role utilizing Intercom, effectively resolving urgent production issues and ensuring customer satisfaction.",
+                "Adopted containerization for development, enhancing scalability and deployment efficiency.",
+                "Conducted rigorous code reviews and implemented code refactoring to maintain codebase integrity and improve performance.",
+                "Successfully delivered new features and functionalities to meet evolving business needs and user requirements.",
+                "Developed and executed unit and integration tests to validate software functionality and reliability.",
+                "Implemented comprehensive test coverage to ensure code stability and minimize the risk of regressions."
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "05/2019 – 06/2020"
+        },
+        {
+            "title": "Boehringher Ingelheim Pharmaceuticals",
+            "subtitle": "Tech Leader",
+            "workType": "Full Time",
+            "workDescription": [
+                "Contributed to the development of a strategic software solution for Boehringer Ingelheim, a leading global pharmaceutical company diversifying into animal health solutions. The project aimed to provide users with an intuitive platform enabling them to locate and purchase products via an interactive map interface. Leveraging technologies including Ruby on Rails, PHP, MySQL, and React, key responsibilities and achievements encompassed:",
+                "Conducting thorough code reviews and implementing comprehensive test coverage to ensure software reliability and quality assurance.",
+                "Collaborating closely with the Scrum Master to plan and prioritize tasks for successful sprint deliveries.",
+                "Engaging in productive discussions with managerial stakeholders to align project objectives with business requirements.",
+                "Conducting technical interviews to assess and onboard new team members.",
+                "Defining system architecture to establish a scalable and robust software framework.",
+                "Successfully managing project timelines and resources, resulting in on-time project delivery.",
+                "Deploying the software across multiple web platforms tailored to various countries, enhancing global accessibility and user reach."
+            ],
+            "dateText": "12/2017 – 05/2019"
+        },
+        {
+            "title": "Ministry of Economy - Buenos Aires Province",
+            "subtitle": "Fullstack Web Engineer / Team Leader",
+            "workType": "Full Time",
+            "workDescription": [
+                "Contributed to the development of a comprehensive taxes management system deployed across over 100 municipalities within Buenos Aires, aimed at enhancing citizens' satisfaction in handling property and vehicle tax payments, among other services. Leveraged technologies such as Laravel, PHP, and Angular to architect and refine the system's functionality. Played a pivotal role in various aspects of the project lifecycle:",
+                "Conducted code refactoring to enhance system efficiency and maintainability.",
+                "Collaborated with team leaders to plan sprint objectives and milestones.",
+                "Engaged in constructive discussions with team leaders, coordinators, and managers to streamline project execution.",
+                "Defined system architecture to ensure scalability and performance optimization.",
+                "Implemented test coverage to validate system functionality and mitigate risks.",
+                "Improved legacy code to align with modern development standards.",
+                "Developed SQL code for both legacy (Oracle) and new (PostgreSQL) database engines, ensuring seamless data migration and compatibility."
+            ],
+            "dateText": "12/2016 – 07/2019"
+        },
+        {
+            "title": "Universidad Nacional de La Plata",
+            "subtitle": "Assitant Professor",
+            "workType": "Teacher",
+            "workDescription": [
+                "Served as an Assistant Professor on an interim basis at Universidad Nacional de La Plata, instructing various courses including 'CADP' (Concepts of Algorithms, Data and Programs), 'Expression of Problems and Algorithms', and 'Programming Workshop'.",
+                "Facilitated lectures and practical sessions for students enrolled in Computer Engineering, Bachelor of Systems, Bachelor in Computer Science, and Analyst Programmer programs.",
+                "Demonstrated expertise in conveying complex algorithmic concepts and programming fundamentals, nurturing students' analytical and problem-solving skills.",
+                "Engaged in interactive teaching methodologies to foster a conducive learning environment and promote student success."
+            ],
+            "dateText": "02/2013 – 06/2017"
+        },
+        {
+            "title": "OPSI",
+            "subtitle": "Full Stack Developer",
+            "workType": "Full Type",
+            "workDescription": [
+                "Proficient in software development across multiple organizations, specializing in database design, software engineering, and analysis.",
+                "As a developer, I spearheaded end-to-end client-centric responsibilities, encompassing requirements elicitation, technology stack selection, iterative solution delivery, and ongoing maintenance ownership."
+            ],
+            "dateText": "02-2014 - 12-2016"
+        },
+        {
+            "title": "Restosoft Systems",
+            "subtitle": "Freelance Developer",
+            "workType": "Part-time",
+            "workDescription": [
+                "Billing system for restaurants with sales made in several places in Argentina, Uruguay, Chile, and México.",
+                "Implementation of corrective and evolutionary maintenance."
+            ],
+            "dateText": "03-2015 - 10-2016"
         }
     ]
 }

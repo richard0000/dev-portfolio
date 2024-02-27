@@ -53,6 +53,7 @@ function Education(props) {
                 items={data.education}
                 cardHeight={250}
                 mode={mode}
+                timelineCircleDimension={50}
                 theme={{
                   primary: theme.accentColor,
                   secondary: theme.accentColor,

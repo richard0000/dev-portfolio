@@ -1,149 +1,111 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "image" : "images/projects/noggin.png",
+            "title": "Noggin",
+            "bodyText": "- A learning platform for kids led by their favorite characters.\n - Parents can monitor their kids learning.\n - Parents can manage their kids contents for learning.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
                     "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "href": "https://www.noggin.com/"
                 }
             ],
             "tags" : [
                 "React",
-                "Portfolio",
+                "Ruby on Rails",
                 "JavaScript"
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "image" : "images/projects/t3desm.png",
+            "title": "T3 Innovation Network - DESM",
+            "bodyText": "- A schema converter application for the web 3.0.\n - An open source project.\nYou can interact by using drag and drop to easily build your own RDF schema.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
+                    "href": "https://github.com/t3-innovation-network/desm"
+                }
+            ],
+            "tags" : [
+                "Open Source",
+                "Ruby on Rails",
+                "Ruby",
+                "React",
+                "Javascript",
+                "Cloud66",
+                "Rspec",
+                "AWS"
+            ]
+        },
+        {
+            "image" : "images/projects/tlaconline.png",
+            "title": "Teach Like a Champion Online",
+            "bodyText": "- An application for education establishments to level up their teachers.\n - Different roles: admin, coach, teacher.\n - Option to assign courses to teachers to build a learning path for them.\n.",
+            "links": [
                 {
                     "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "href": "https://tlaconline.com/"
                 }
             ],
             "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "React",
+                "Ruby on Rails",
+                "Ruby",
+                "Javascript"
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "image" : "images/projects/troly.png",
+            "title": "Troly",
+            "bodyText": "-  A platform tailored for small and mid-size wineries and breweries.\n - Module based architecture.\n - Integrated with several API's like: Braintree, Fastway, UPS, Twilio, among others.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "text": "Live",
+                    "href": "https://troly.co/"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
+                "Ruby",
+                "JavaScript",
+                "Ruby on Rails",
+                "React",
+                "Intercom",
+                "Heroku"
             ]
         },
         {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
+            "image" : "images/projects/lpx.fund.png",
+            "title": "LPx",
+            "bodyText": "- A Platform designed to manage fund administration and investor relations.\n - Led a migration from a document based database engine to a relational one.\n - Acted as a technical leader.\n - Used libraries for PDF generation and document cloud storage.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
+                    "text": "Live",
+                    "href": "https://lpx.fund"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
+                "Javascript",
+                "NodeJS",
+                "React",
+                "NestJS",
+                "PdfKit",
+                "Google Cloud"
             ]
         },
         {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
+            "image" : "images/projects/frontline.png",
+            "title": "Frontline - Find a Vet",
+            "bodyText": "- An web embedded application to track veterinarians in the map.\n Wrote a microservice to store the veterinarians locations.\n Connected the service to the embedded application to only show the vets around the user's current location.\n Conducted technical interviews.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
+                    "text": "Live",
+                    "href": "https://frontline.com.ar/"
                 }
             ],
             "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "Php",
+                "Ruby",
+                "Javascript"
             ]
         }
     ]
