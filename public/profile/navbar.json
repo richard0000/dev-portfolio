@@ -30,6 +30,10 @@
             "href": "/projects"
         },
         {
+            "title": "Hobbies",
+            "href": "/hobbies"
+        },
+        {
             "title": "Resume",
             "href": "https://docs.google.com/document/d/1lghSl2aQG_lEwvKVpBNH4y96DKJg7OoPY-XiGUdWjwk/edit",
             "type": "link"

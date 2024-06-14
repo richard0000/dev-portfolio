@@ -11,6 +11,11 @@
             "headerTitle": "Skills"
         },
         {
+            "component": "Hobbies",
+            "path": "/hobbies",
+            "headerTitle": "Hobbies"
+        },
+        {
             "component": "Education",
             "path": "/education",
             "headerTitle": "Education"

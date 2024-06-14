@@ -13,8 +13,8 @@
           "title": "JavaScript"
         },
         {
-          "icon": "images/skills/php.png",
-          "title": "Php"
+          "icon": "images/skills/golang.png",
+          "title": "Golang"
         }
       ]
     },
@@ -123,6 +123,10 @@
         {
           "icon": "images/skills/graphql.png",
           "title": "GraphQL"
+        },
+        {
+          "icon": "images/skills/grpc.png",
+          "title": "GRPC"
         }
       ]
     }
