@@ -7,6 +7,13 @@ Welcome to my personal website! This is where I showcase my projects, skills, an
 ## About Me
 I am a passionate Fullstack Software Engineer with expertise in building robust and scalable web applications. With a strong background in Ruby on Rails, React, and NodeJS, I thrive in delivering high-quality software solutions that meet client needs and exceed expectations.
 
+## Projects
+Here are some of the projects I've worked on:
+
+- **Project 1:** Description of Project 1.
+- **Project 2:** Description of Project 2.
+- **Project 3:** Description of Project 3.
+
 ## Skills
 - Ruby on Rails
 - React
