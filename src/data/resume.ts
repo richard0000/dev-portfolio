@@ -17,12 +17,12 @@ export const RESUME_DATA = {
         social: [
             {
                 name: "GitHub",
-                url: "https://github.com/ricardogamarra",
+                url: "https://github.com/richard0000",
                 icon: Github,
             },
             {
                 name: "LinkedIn",
-                url: "https://www.linkedin.com/in/ricardogamarra/",
+                url: "https://www.linkedin.com/in/ricardo-gamarra/",
                 icon: Linkedin,
             },
             {
@@ -115,6 +115,16 @@ export const RESUME_DATA = {
     ],
     projects: [
         {
+            title: "American Express Travel",
+            techStack: ["React", "Ruby on Rails", "PostgreSQL"],
+            description:
+                "Developed microservices and architected new features for Amex Travel at Arionkoder.",
+            link: {
+                label: "americanexpress.com",
+                href: "https://www.americanexpress.com/en-us/travel/",
+            },
+        },
+        {
             title: "Noggin",
             techStack: ["Rails", "React", "Video Streaming"],
             description:
@@ -130,8 +140,8 @@ export const RESUME_DATA = {
             description:
                 "A Web 3.0 schema converter open-source project using a drag-and-drop interface for RDF schemas.",
             link: {
-                label: "GitHub",
-                href: "#",
+                label: "DESM - T3 Innovation Network",
+                href: "https://www.t3networkhub.org/resources/data-ecosystem-schema-mapping-tool-desm",
             },
         },
         {
@@ -140,8 +150,8 @@ export const RESUME_DATA = {
             description:
                 "An educational app for teacher training with complex roles (admin, coach, teacher) and custom learning paths.",
             link: {
-                label: "teachlikeachampion.org",
-                href: "https://teachlikeachampion.org/",
+                label: "Teach Like a Champion Online",
+                href: "https://tlaconline.com/",
             },
         },
     ],
