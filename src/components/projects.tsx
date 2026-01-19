@@ -15,7 +15,7 @@ export function Projects() {
                     <Card key={project.title} className="flex flex-col h-full hover:bg-white/10 transition-colors group">
                         <div className="flex items-center justify-between mb-2">
                             <h3 className="font-semibold">{project.title}</h3>
-                            {project.link.href !== "#" && (
+                            {(project.link.href as string) !== "#" && (
                                 <a href={project.link.href} target="_blank" rel="noopener noreferrer" className="text-zinc-500 hover:text-indigo-400 transition-colors">
                                     <ArrowUpRight className="w-4 h-4" />
                                 </a>
