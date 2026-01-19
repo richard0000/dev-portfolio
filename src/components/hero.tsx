@@ -5,15 +5,21 @@ import { Section } from "@/components/ui/section";
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
 
+import Image from "next/image";
+
 // Simple Avatar component locally defined if not using a library yet
 // or we can just use img for now for simplicity in the first pass
-function LocalAvatar({ src, alt, initials }: { src: string; alt: string; initials: string }) {
+function LocalAvatar({ src, alt }: { src: string; alt: string }) {
     return (
-        <div className="relative h-24 w-24 md:h-32 md:w-32 rounded-full overflow-hidden border-4 border-white/10 bg-muted flex items-center justify-center text-3xl font-bold text-muted-foreground">
-            {src ? (
-                <img src={src} alt={alt} className="object-cover h-full w-full" />
-            ) : (
-                <span>{initials}</span>
+        <div className="relative h-24 w-24 md:h-32 md:w-32 rounded-full overflow-hidden border-4 border-white/10 bg-muted flex items-center justify-center text-3xl font-bold text-muted-foreground shadow-2xl shadow-indigo-500/20">
+            {src && (
+                <Image
+                    src={src}
+                    alt={alt}
+                    fill
+                    className="object-cover"
+                    priority
+                />
             )}
         </div>
     )
@@ -73,7 +79,6 @@ export function Hero() {
                     <LocalAvatar
                         src={RESUME_DATA.avatarUrl}
                         alt={RESUME_DATA.name}
-                        initials={RESUME_DATA.initials}
                     />
                 </motion.div>
             </div>

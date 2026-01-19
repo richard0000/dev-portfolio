@@ -9,7 +9,7 @@ export const RESUME_DATA = {
         "Senior Full-Stack Software Engineer with 5+ years of specialized experience in Ruby on Rails and React. Expert in building microservices architectures, optimizing database performance, and implementing comprehensive testing strategies.",
     summary:
         "I am a Senior Full-Stack Engineer with a passion for building scalable, high-performance applications. With extensive experience in Ruby on Rails, React, and Microservices, I have led technical migrations, optimized high-traffic systems, and mentored engineering teams. Currently focusing on delivering robust solutions for global clients.",
-    avatarUrl: "", // We can use a placeholder or initials
+    avatarUrl: "/avatar.png",
     personalWebsiteUrl: "https://ricardog.dev",
     contact: {
         email: "r.richard0000@gmail.com",
