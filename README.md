@@ -8,10 +8,12 @@ A modern, high-performance developer portfolio built with the latest web technol
 - **Dynamic Hero Section**: Engaging landing area to grab attention immediately.
 - **Responsive Design**: Fully optimized for mobile, tablet, and desktop devices.
 - **Modern UI/UX**: Built with a focus on aesthetics, usability, and performance using Tailwind CSS and Framer Motion.
+- **Dark/Light Mode**: User-preference respecting theme toggle with persistent state.
 
 ## 🛠 Tech Stack
 
 - **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Theming**: [next-themes](https://github.com/pacocoursey/next-themes)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
 - **AI Integration**: [Google Gemini API](https://ai.google.dev/)
