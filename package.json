@@ -12,6 +12,8 @@
     "node": ">=20.0.0"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "ai": "^2.2.37",
     "clsx": "^2.1.1",
     "framer-motion": "^12.27.0",
     "lucide-react": "^0.562.0",

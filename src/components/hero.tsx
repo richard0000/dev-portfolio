@@ -2,10 +2,11 @@
 
 import { RESUME_DATA } from "@/data/resume";
 import { Section } from "@/components/ui/section";
+import { ArrowDown, Mail } from "lucide-react";
 import { motion } from "framer-motion";
-import { Mail } from "lucide-react";
 
 import Image from "next/image";
+import Link from "next/link";
 
 // Simple Avatar component locally defined if not using a library yet
 // or we can just use img for now for simplicity in the first pass
@@ -47,7 +48,7 @@ export function Hero() {
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.2 }}
-                        className="flex gap-4 pt-4"
+                        className="flex flex-wrap gap-4 pt-4"
                     >
                         {RESUME_DATA.contact.social.map((social) => (
                             <a
@@ -61,13 +62,25 @@ export function Hero() {
                                 <span className="sr-only">{social.name}</span>
                             </a>
                         ))}
-                        <a
-                            href={`mailto:${RESUME_DATA.contact.email}`}
-                            className="p-3 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors font-medium flex items-center gap-2"
-                        >
-                            <Mail className="w-5 h-5" />
-                            <span>Contact Me</span>
-                        </a>
+                        <div className="flex gap-3">
+                            <a
+                                href={`mailto:${RESUME_DATA.contact.email}`}
+                                className="px-6 py-3 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors font-medium flex items-center gap-2"
+                            >
+                                <Mail className="w-5 h-5" />
+                                <span>Contact Me</span>
+                            </a>
+                            <Link
+                                href="/playground"
+                                className="px-6 py-3 rounded-lg bg-indigo-500/10 text-indigo-400 hover:bg-indigo-500/20 border border-indigo-500/20 transition-all font-medium flex items-center gap-2 group"
+                            >
+                                <span className="relative flex h-2 w-2">
+                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
+                                    <span className="relative inline-flex rounded-full h-2 w-2 bg-indigo-500"></span>
+                                </span>
+                                <span>Try AI Agent</span>
+                            </Link>
+                        </div>
                     </motion.div>
                 </div>
 
