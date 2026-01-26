@@ -3,7 +3,7 @@
 import { RESUME_DATA } from "@/data/resume";
 import { Section } from "@/components/ui/section";
 import { Card } from "@/components/ui/card";
-import { Mail } from "lucide-react";
+import { Mail, Calendar } from "lucide-react";
 
 export function Contact() {
     return (
@@ -14,13 +14,22 @@ export function Contact() {
                     I&apos;m currently looking for new opportunities. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
                 </p>
 
-                <div className="flex gap-4">
+                <div className="flex flex-wrap gap-4 justify-center">
                     <a
                         href={`mailto:${RESUME_DATA.contact.email}`}
                         className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8 py-2"
                     >
                         <Mail className="mr-2 h-4 w-4" />
                         Say Hello
+                    </a>
+                    <a
+                        href="https://calendly.com/ricardo-gamarra/15min"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-emerald-500 text-white hover:bg-emerald-600 h-11 px-8 py-2"
+                    >
+                        <Calendar className="mr-2 h-4 w-4" />
+                        Schedule a Meeting
                     </a>
                 </div>
 

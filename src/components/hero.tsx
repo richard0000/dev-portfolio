@@ -2,7 +2,7 @@
 
 import { RESUME_DATA } from "@/data/resume";
 import { Section } from "@/components/ui/section";
-import { ArrowDown, Mail } from "lucide-react";
+import { ArrowDown, Mail, Calendar } from "lucide-react";
 import { motion } from "framer-motion";
 
 import Image from "next/image";
@@ -62,13 +62,22 @@ export function Hero() {
                                 <span className="sr-only">{social.name}</span>
                             </a>
                         ))}
-                        <div className="flex gap-3">
+                        <div className="flex flex-wrap gap-3">
                             <a
                                 href={`mailto:${RESUME_DATA.contact.email}`}
                                 className="px-6 py-3 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors font-medium flex items-center gap-2"
                             >
                                 <Mail className="w-5 h-5" />
                                 <span>Contact Me</span>
+                            </a>
+                            <a
+                                href="https://calendly.com/ricardo-gamarra/15min"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="px-6 py-3 rounded-lg bg-emerald-500/10 text-emerald-400 hover:bg-emerald-500/20 border border-emerald-500/20 transition-all font-medium flex items-center gap-2"
+                            >
+                                <Calendar className="w-5 h-5" />
+                                <span>Schedule a Meeting</span>
                             </a>
                             <Link
                                 href="/playground"
