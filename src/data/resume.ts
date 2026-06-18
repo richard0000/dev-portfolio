@@ -49,6 +49,16 @@ export const RESUME_DATA = {
     ],
     work: [
         {
+            company: "QuieroMiTurno",
+            link: "https://quieromiturno.com",
+            badges: ["Founder", "SaaS", "Next.js", "React", "PostgreSQL"],
+            title: "Founder & Lead Developer",
+            start: "Jan 2024",
+            end: "Present",
+            description:
+                "Founded, architected, and built a multi-tenant salon management and automated scheduling SaaS platform. Engineered a high-performance booking system, interactive calendar, automated WhatsApp client notifications, and a real-time business intelligence dashboard supporting over 200 active beauty salons.",
+        },
+        {
             company: "Arionkoder",
             link: "https://arionkoder.com",
             badges: ["Remote", "Ruby on Rails", "React"],
@@ -114,6 +124,20 @@ export const RESUME_DATA = {
         "Tailwind CSS",
     ],
     projects: [
+        {
+            title: "QuieroMiTurno",
+            techStack: ["Next.js", "React", "Tailwind CSS", "PostgreSQL", "WhatsApp API"],
+            description:
+                "Founder and lead developer of a SaaS booking and management platform for beauty salons. Features real-time appointment scheduling, automated WhatsApp reminders, and a business dashboard with advanced revenue analytics, serving 200+ salons.",
+            // images: [
+            //     "/quieromiturno-landing.png",
+            //     "/quieromiturno-dashboard.png",
+            // ],
+            link: {
+                label: "quieromiturno.com",
+                href: "https://quieromiturno.com",
+            },
+        },
         {
             title: "American Express Travel",
             techStack: ["React", "Ruby on Rails", "PostgreSQL"],
