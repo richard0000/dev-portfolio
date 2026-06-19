@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { LocalAvatar } from "./ui/LocalAvatar";
+import { RESUME_DATA } from "@/data/resume";
 
 const NAV_ITEMS = [
     { label: "About", href: "/#about" },
@@ -45,10 +47,11 @@ export function Header() {
                     href="/"
                     className="text-xl font-bold tracking-tight hover:text-indigo-400 transition-colors flex items-center gap-1.5"
                 >
-                    <span className="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-                        RG
-                    </span>
-                    <span className="text-xs text-zinc-500 font-mono hidden sm:inline">.dev</span>
+                    <LocalAvatar
+                        src={RESUME_DATA.avatarUrl}
+                        alt={RESUME_DATA.name}
+                        className="h-9 w-9"
+                    />
                 </Link>
 
                 {/* Desktop Nav */}
