@@ -12,7 +12,7 @@ export const RESUME_DATA = {
     avatarUrl: "/avatar.png",
     personalWebsiteUrl: "https://ricardog.dev",
     contact: {
-        email: "r.richard0000@gmail.com",
+        email: "hello@ricardog.dev",
         tel: "",
         social: [
             {
@@ -27,7 +27,7 @@ export const RESUME_DATA = {
             },
             {
                 name: "Email",
-                url: "mailto:r.richard0000@gmail.com",
+                url: "mailto:hello@ricardog.dev",
                 icon: Mail,
             },
         ],
@@ -51,12 +51,15 @@ export const RESUME_DATA = {
         {
             company: "QuieroMiTurno",
             link: "https://quieromiturno.com",
-            badges: ["Founder", "SaaS", "Next.js", "React", "PostgreSQL"],
+            badges: ["Founder", "Side Project / SaaS", "Next.js", "React", "PostgreSQL"],
             title: "Founder & Lead Developer",
             start: "Jan 2024",
             end: "Present",
-            description:
-                "Founded, architected, and built a multi-tenant salon management and automated scheduling SaaS platform. Engineered a high-performance booking system, interactive calendar, automated WhatsApp client notifications, and a real-time business intelligence dashboard supporting over 200 active beauty salons.",
+            description: [
+                "Founded, architected, and built a multi-tenant booking and management SaaS platform supporting over 200 active beauty salons.",
+                "Engineered a high-performance booking system, interactive calendar, and automated WhatsApp client notification system, significantly reducing appointment cancellations.",
+                "Developed a comprehensive real-time business intelligence dashboard showcasing billing metrics, services demand, and revenue estimation."
+            ],
         },
         {
             company: "Arionkoder",
@@ -65,8 +68,11 @@ export const RESUME_DATA = {
             title: "Full-Stack Software Engineer",
             start: "Apr 2024",
             end: "Present",
-            description:
-                "Developing microservices for American Express (ISeatz project). Part of a security team identifying vulnerabilities across 20+ services. Architecting new features using React, Ruby on Rails, and PostgreSQL.",
+            description: [
+                "Engineered critical microservices for American Express (ISeatz project), ensuring high availability and processing volume.",
+                "Audited and resolved security vulnerabilities across 20+ microservices, establishing higher security and compliance benchmarks.",
+                "Designed and built new features leveraging React, Ruby on Rails, and PostgreSQL."
+            ],
         },
         {
             company: "LPx",
@@ -75,8 +81,11 @@ export const RESUME_DATA = {
             title: "Full-Stack Software Engineer / Tech Leader",
             start: "Apr 2023",
             end: "May 2024",
-            description:
-                "Led technical architecture redesign, reducing runtime by 25%. Migrated to PostgreSQL, accelerating query performance by 30%. Mentored a team of 3 engineers.",
+            description: [
+                "Led a comprehensive technical architecture redesign that reduced system runtime by 25%.",
+                "Orchestrated database migration to PostgreSQL, resulting in a 30% query performance acceleration.",
+                "Mentored and guided 3 software engineers, fostering agile best practices and clean code standards."
+            ],
         },
         {
             company: "GOAT",
@@ -85,8 +94,11 @@ export const RESUME_DATA = {
             title: "Full-Stack Software Engineer",
             start: "Jan 2022",
             end: "Jun 2023",
-            description:
-                "Migrated core services from Rails monolith to Golang microservices. Built GRPC-based microservices achieving 90% test coverage. Optimized high-traffic PostgreSQL endpoints.",
+            description: [
+                "Deconstructed a legacy Rails monolith, migrating core functionalities into high-performance Golang microservices.",
+                "Built robust gRPC-based microservices with strict testing standards, achieving 90% code coverage.",
+                "Optimized high-traffic PostgreSQL database queries, reducing response latencies for critical endpoints."
+            ],
         },
         {
             company: "Learning Tapestry",
@@ -95,8 +107,11 @@ export const RESUME_DATA = {
             title: "Full-Stack Software Engineer",
             start: "Jun 2020",
             end: "Jan 2022",
-            description:
-                "Delivered 10+ Rails MVPs for clients like Nickelodeon. Integrated payment gateways and third-party authentication. Established RSpec testing standards.",
+            description: [
+                "Delivered 10+ Ruby on Rails MVPs for high-profile EdTech clients including Nickelodeon.",
+                "Integrated payment gateways and third-party authentication services seamlessly.",
+                "Established RSpec testing standards and automated testing suites across projects."
+            ],
         },
         {
             company: "Troly.io",
@@ -105,24 +120,18 @@ export const RESUME_DATA = {
             title: "Full-Stack Software Engineer",
             start: "May 2019",
             end: "Jun 2020",
-            description:
-                "Implemented Docker containerization reducing deployment times by 50%. Resolved critical production issues and refactored legacy Rails code.",
+            description: [
+                "Implemented Docker containerization for application services, reducing deployment times by 50%.",
+                "Resolved critical production bottlenecks and refactored legacy Rails code to improve maintainability."
+            ],
         },
     ],
-    skills: [
-        "Ruby",
-        "Ruby on Rails",
-        "React",
-        "TypeScript",
-        "Next.js",
-        "Node.js",
-        "Golang",
-        "PostgreSQL",
-        "Docker",
-        "AWS",
-        "GraphQL",
-        "Tailwind CSS",
-    ],
+    skills: {
+        "Languages": ["Ruby", "TypeScript", "Golang", "JavaScript", "SQL"],
+        "Frameworks & Libraries": ["Ruby on Rails", "React", "Next.js", "Node.js"],
+        "Databases & APIs": ["PostgreSQL", "GraphQL", "gRPC"],
+        "DevOps & Tools": ["Docker", "AWS", "Tailwind CSS", "Git"],
+    },
     projects: [
         {
             title: "QuieroMiTurno",
@@ -142,7 +151,7 @@ export const RESUME_DATA = {
             title: "American Express Travel",
             techStack: ["React", "Ruby on Rails", "PostgreSQL"],
             description:
-                "Developed microservices and architected new features for Amex Travel at Arionkoder.",
+                "Engineered critical microservices and architected new booking features for American Express Travel at Arionkoder, using React, Rails, and PostgreSQL.",
             link: {
                 label: "americanexpress.com",
                 href: "https://www.americanexpress.com/en-us/travel/",
@@ -152,7 +161,7 @@ export const RESUME_DATA = {
             title: "Noggin",
             techStack: ["Rails", "React", "Video Streaming"],
             description:
-                "A learning platform for kids featuring favorite characters. Includes parental monitoring and content management tools.",
+                "Developed and scaled kid-focused learning platform Noggin, implementing robust parental monitoring and content management tools using Rails and React.",
             link: {
                 label: "noggin.com",
                 href: "https://www.noggin.com/",
@@ -162,7 +171,7 @@ export const RESUME_DATA = {
             title: "T3 Innovation Network",
             techStack: ["Web 3.0", "Open Source", "RDF"],
             description:
-                "A Web 3.0 schema converter open-source project using a drag-and-drop interface for RDF schemas.",
+                "Built the drag-and-drop schema converter interface for Web 3.0 RDF mapping tools as part of an open-source project.",
             link: {
                 label: "DESM - T3 Innovation Network",
                 href: "https://www.t3networkhub.org/resources/data-ecosystem-schema-mapping-tool-desm",
@@ -172,7 +181,7 @@ export const RESUME_DATA = {
             title: "Teach Like a Champion",
             techStack: ["EdTech", "LMS"],
             description:
-                "An educational app for teacher training with complex roles (admin, coach, teacher) and custom learning paths.",
+                "Developed a teacher-training LMS platform supporting complex user roles, custom learning paths, and progress tracking.",
             link: {
                 label: "Teach Like a Champion Online",
                 href: "https://tlaconline.com/",
