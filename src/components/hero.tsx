@@ -2,7 +2,7 @@
 
 import { RESUME_DATA } from "@/data/resume";
 import { Section } from "@/components/ui/section";
-import { ArrowDown, Mail, Calendar } from "lucide-react";
+import { ArrowDown, Mail, Calendar, FileDown } from "lucide-react";
 import { motion } from "framer-motion";
 
 import Image from "next/image";
@@ -69,6 +69,14 @@ export function Hero() {
                             >
                                 <Mail className="w-5 h-5" />
                                 <span>Contact Me</span>
+                            </a>
+                            <a
+                                href="/resume.pdf"
+                                download
+                                className="px-6 py-3 rounded-lg bg-white/5 hover:bg-white/10 text-foreground border border-white/10 hover:border-white/20 transition-all font-medium flex items-center gap-2"
+                            >
+                                <FileDown className="w-5 h-5 text-zinc-400" />
+                                <span>Download Resume</span>
                             </a>
                             <a
                                 href="https://calendly.com/ricardo-gamarra/15min"

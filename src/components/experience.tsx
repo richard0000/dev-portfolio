@@ -29,9 +29,17 @@ export function Experience() {
                             </div>
                         </div>
 
-                        <p className="text-sm text-zinc-300 leading-relaxed">
-                            {role.description}
-                        </p>
+                        {Array.isArray(role.description) ? (
+                            <ul className="list-disc pl-5 space-y-2 text-sm text-zinc-300 leading-relaxed">
+                                {role.description.map((bullet, idx) => (
+                                    <li key={idx}>{bullet}</li>
+                                ))}
+                            </ul>
+                        ) : (
+                            <p className="text-sm text-zinc-300 leading-relaxed">
+                                {(role as any).description}
+                            </p>
+                        )}
 
                         <div className="flex flex-wrap gap-2 pt-2">
                             {role.badges.map((badge) => (
