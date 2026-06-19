@@ -5,26 +5,8 @@ import { Section } from "@/components/ui/section";
 import { ArrowDown, Mail, Calendar, FileDown } from "lucide-react";
 import { motion } from "framer-motion";
 
-import Image from "next/image";
+import { LocalAvatar } from "@/components/ui/LocalAvatar";
 import Link from "next/link";
-
-// Simple Avatar component locally defined if not using a library yet
-// or we can just use img for now for simplicity in the first pass
-function LocalAvatar({ src, alt }: { src: string; alt: string }) {
-    return (
-        <div className="relative h-24 w-24 md:h-32 md:w-32 rounded-full overflow-hidden border-4 border-white/10 bg-muted flex items-center justify-center text-3xl font-bold text-muted-foreground shadow-2xl shadow-indigo-500/20">
-            {src && (
-                <Image
-                    src={src}
-                    alt={alt}
-                    fill
-                    className="object-cover"
-                    priority
-                />
-            )}
-        </div>
-    )
-}
 
 export function Hero() {
     return (
@@ -109,6 +91,7 @@ export function Hero() {
                     <LocalAvatar
                         src={RESUME_DATA.avatarUrl}
                         alt={RESUME_DATA.name}
+                        className="h-24 w-24 md:h-32 md:w-32 border-4 shadow-2xl shadow-indigo-500/20"
                     />
                 </motion.div>
             </div>
